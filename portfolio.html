@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
 </head>
 <body>
-    <div id="topOfPage">
+    <div class="topOfPage clearfix">
 
             <header>
                 Jacob528491
@@ -18,46 +18,48 @@
             <nav>
                 <a href="index.html">About</a> |
                 <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a> |
+                <a href="contact.html">Contact</a> 
             </nav>
     
-        </div>
+    </div>
 
-        <div id="portfolioProjectImagesandTitles">
+    <div class="mainBodyContainer clearfix">
 
-                <div id="imagesRow1">
+        <div id="portfolioProjectImagesandTitles" class="mainPageContent">
 
-                    <div class="container">
-                        <img src="assets/images/5S_Mass_Transit_Washing_System.jpeg" alt="Double-Decker Bus">
-                        <p>5S Mass Transit Automated Washing System</p>
+                <div id="imagesRow1 clearfix">
+
+                    <div class="container imageColumnLeft">
+                        <img src="assets/images/5S_Mass_Transit_Washing_System.jpeg" alt="Double-Decker Bus" class="portfolioImage">
+                        <p class="imageOverlayP">5S Mass Transit Automated Washing System</p>
                     </div>
                     
-                    <div class="container">
-                        <img src="assets/images/Bayesian_Neural_Net_Hearing_Loss.jpeg" alt="Headphones">
-                        <p>Bayesian Neural Network Predicting Hearing Loss by Headphone Brand</p>
+                    <div class="container imageColumnRight">
+                        <img src="assets/images/Bayesian_Neural_Net_Hearing_Loss.jpeg" alt="Headphones" class="portfolioImage">
+                        <p class="imageOverlayP">Bayesian Neural Network Predicting Hearing Loss by Headphone Brand</p>
                     </div>
 
                 </div>
 
-                <div id="imagesRow2">
+                <div id="imagesRow2 clearfix">
                     
-                    <div class="container">
-                        <img src="assets/images/Traffic_Simulator.jpeg" alt="Las Vegas Cityscape">
-                        <p>Traffic Simulator</p>
+                    <div class="container imageColumnLeft">
+                        <img src="assets/images/Traffic_Simulator.jpeg" alt="Las Vegas Cityscape" class="portfolioImage">
+                        <p class="imageOverlayP">Traffic Simulator</p>
                     </div>
 
-                    <div class="containter">
-                        <img src="assets/images/Headphone_Locator.jpeg" alt="Outdated Headphones">
-                        <p>Headphone Locator</p>
+                    <div class="containter imageColumnRight">
+                        <img src="assets/images/Headphone_Locator.jpeg" alt="Outdated Headphones" class="portfolioImage">
+                        <p class="imageOverlayP">Headphone Locator</p>
                     </div>
 
                 </div>
 
-                <div id="imagesRow3">
+                <div id="imagesRow3 clearfix">
 
-                    <div class="container">
-                        <img src="assets/images/Electronics_Product_Commoditization.jpeg" alt="Old Walkman">
-                        <p>Are Electronic Components ever Commoditized?</p>
+                    <div class="container imageColumnLeft">
+                        <img src="assets/images/Electronics_Product_Commoditization.jpeg" alt="Old Walkman" class="portfolioImage">
+                        <p class="imageOverlayP">Are Electronic Components ever Commoditized?</p>
                     </div>
 
                 </div>
@@ -67,19 +69,25 @@
         <aside id="linksToOtherSites">
             <h2>Connect with Me</h2>
     
-            <a href="https://www.linkedin.com/in/jacob-minasian/">
-                <img src="assets/images/LinkedInLogo.png" alt="LinkedIn Profile">
-            </a>
-    
-            <a href="https://stackoverflow.com/users/6841254/jacob528491">
-                <img src="assets/images/StackOverflowLogo2.png" alt="StackOverflow Profile">
-            </a>
-    
-            <a href="https://github.com/528491">
-                <img src="assets/images/GithubLogo2.png" alt="GitHub Profile">
-            </a>
+            <div class="imageLinksContainer">
+
+                <a href="https://www.linkedin.com/in/jacob-minasian/">
+                    <img src="assets/images/LinkedInLogo.png" alt="LinkedIn Profile" class="imageLink">
+                </a>
         
+                <a href="https://stackoverflow.com/users/6841254/jacob528491">
+                    <img src="assets/images/StackOverflowLogo2.png" alt="StackOverflow Profile" class="imageLink">
+                </a>
+        
+                <a href="https://github.com/528491">
+                    <img src="assets/images/GithubLogo2.png" alt="GitHub Profile" class="imageLink">
+                </a>
+        
+            </div>
+
             </aside>
+
+    </div>
 
     <footer>
         &copy; Copyright 2018 Jacob528491
