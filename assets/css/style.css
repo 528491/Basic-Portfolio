@@ -1,0 +1,9 @@
+body {
+    background-image: url("../images/SiteBackground1.png");
+    color: #777777; /* Headings will have their own color, and because specificity takes precedence, this will work */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #666666;
+}
