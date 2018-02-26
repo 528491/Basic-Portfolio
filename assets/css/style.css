@@ -145,10 +145,26 @@ footer {
 
 }
 
+.inputBoxes {
+    margin: 10px;
+}
+
 #ProfilePicture {
     width: 200px;
     height: 275px;
     padding-left: 15px;
     padding-right: 15px;
     float: left;
+}
+
+#formHeading {
+    border-style: solid;
+    border-color: #666666;
+    border-bottom-width: 5px;
+    margin: 20px;
+
+}
+
+#contactForm {
+    margin: 20px;
 }
