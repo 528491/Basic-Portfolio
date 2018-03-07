@@ -98,6 +98,7 @@ footer {
     width: 250px;
     height: 200px;
     padding: 10px;
+    position: absolute;
 }
 
 .mainBodyContainer {
@@ -116,14 +117,18 @@ footer {
 }
 
 .imageOverlayP {
-    width: 200px;
+    width: 250px;
     font-size: 12px;
     line-height: 12px;
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     position: relative;
+    margin: 0px;
 }
 
 .imageColumnLeft {
@@ -147,6 +152,10 @@ footer {
 
 .inputBoxes {
     margin: 10px;
+}
+
+.container {
+    position: relative;
 }
 
 #ProfilePicture {
