@@ -2,6 +2,10 @@
     border-style: solid;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-image: url("../images/SiteBackground1.png");
     color: #777777; /* Headings will have their own color, and because specificity takes precedence, this will work */
@@ -68,6 +72,10 @@ p {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #666666;
     height: 80px;
     border-top-style: solid;
@@ -98,7 +106,7 @@ footer {
     width: 250px;
     height: 200px;
     padding: 10px;
-    position: absolute;
+    position: relative;
 }
 
 .mainBodyContainer {
@@ -176,4 +184,116 @@ footer {
 
 #contactForm {
     margin: 20px;
+}
+
+@media screen and (max-width: 980px){
+    aside {
+        margin: 0 auto;
+    }
+
+    #contactForm {
+        padding: 5px;
+        margin: 0 auto;
+    }
+    
+    .mainPageContent {
+        overflow: hidden;
+        max-width: 60%;
+        width: auto;
+        margin: 5px;
+    }
+
+    #ProfilePicture {
+        position: static;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .imageColumnLeft {
+        float: none;
+    }
+
+    .imageColumnRight {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #ProfilePicture {
+        float: left;
+        margin: 0 auto;
+    }
+    
+    aside {
+        background-color: #ffffff;
+        width: 90%;
+        margin: 20px;
+        max-width: 768px;
+        position: static;
+    }
+
+    .mainPageContent {
+        background-color: #ffffff;
+        border-color: #dddddd;
+        width: auto;
+        position: static;
+        margin: 30px;
+    }
+
+    .mainBodyContainer {
+        width: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: static;
+
+    }
+
+    .imageColumnLeft {
+        float: left;
+    }
+
+    .imageColumnRight {
+        float: right;
+    }
+
+    #contactForm {
+        width: 100vw;
+        float: none;
+        position: static;
+    }
+
+    #portfolioProjectImagesandTitles {
+        position: static;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    header{
+        position: static;
+    }
+
+    #ProfilePicture {
+        position: static;
+        float: none;
+    }
+
+    .imageColumnLeft {
+        float: none;
+    }
+
+    .imageColumnRight {
+        float: none;
+    }
+
+    .mainPageContent {
+        margin: 0 auto;
+    }
+
+    #portfolioProjectImagesandTitles {
+        float: none;
+        position: static;
+    }
+
 }
